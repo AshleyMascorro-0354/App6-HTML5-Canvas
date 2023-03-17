@@ -3,7 +3,9 @@
 <!-- The following code has been developed by students and/or researchers of the Freshman Research Initiative DIY Diagnostics Stream at The University of Texas at Austin.  This code is shared for demonstration purposes and should not be considered a product -- it is for entertainment purposes only.  Any user of this code does so at their own risk. Members of the DIY Stream, FRI, and The University of Texas system are not liable for anything related to this code.
  
 THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.
- 
+Ashley Mascorro 
+Author 1
+comment: author name added
  
 Authors in chronological order of contribution:
 Tim Riedel
@@ -11,16 +13,20 @@ Author 2
  
 Further Information:
 http://cns.utexas.edu/fri
+http://diveintohtml5.info/canvas.html
  
 Research Educator:
 Timothy Riedel
 triedel@utexas.edu
+
+Student Researcher: 
+Ashley Mascorro 
+ashleymascorro@utexas.edu
  
-Brief Description of Goal of Code:
-blah, blah, blah,
+Brief Description of Goal of Code:Create an HTML5 drawing canvas complete with a border around it in the app that fits on a phone’s screen.
  
 Known Issues:
-blah, blah, blah, blah
+v.1: student information, objective, and website resource listed
 https://www.w3schools.com/w3css/default.asp
 https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-file
 -->
@@ -38,6 +44,17 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 var docMod = document.lastModified; // loads last modified time stamp into docMod variable
 alert("This file last modified " + docMod); // generates alert box with time stamp. If annoying, comment out this entire line.
 console.log("This file last modified " + docMod); // generates message in javaScript console (found in developers tools) with time stamp. 
+	
+	<canvas id="a" width="300" height="225"></canvas>
+	/* function to create canvas along with DOM ID element*/
+	function draw_b() {
+  var b_canvas = document.getElementById("b");
+  var b_context = b_canvas.getContext("2d");
+  b_context.fillRect(50, 25, 150, 100);
+/* canvas added with DOM element and rectangle function/variable concept*/
+}
+	
+
 </script>
 
 
