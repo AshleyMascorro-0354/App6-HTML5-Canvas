@@ -52,9 +52,34 @@ console.log("This file last modified " + docMod); // generates message in javaSc
 		//code for canvas rectangle drawn in canvas
 		var b_context = b_canvas.getcontext(2d"); 
 		b_context.fillRect(50, 25, 200, 120); 
-		//code for rectangle size demensions
+		//code for rectangle size demension
+	} 
+	function clearRecta() {
+		var b_canvas = document.getElementById("a");
+		//code to clear canvas
+		var b_canvas = b_canvas.getContext("2d");
+		b_context.width = b_canvas.width; 
+		//code that clears canvas 
 	}
-	
+	function name_b() {
+		var b_canvas = document.getElementById("a"); 
+		//code to add name to canvas
+		var b_context = b_canvas.getContext("2d"); 
+		b_context.font = "30px Arial"; 
+		//font of text and sizing
+		b_context.fillStyle = "blue"; 
+		//change text color
+		b_context.fillText("Ashley Mascorro", 50,100); 
+		//text location and name
+	}
+	function image() {
+		var b_canvas = document.getElementById("a"); 
+		//code to add image to canvas
+		var b_contect = b_canvas.getContext("2d");
+		var img = document.getElementById("rectcat"); 
+		b_context.drawImage(img,10,20); 
+		//position of image
+	} 
 
 </script>
 
